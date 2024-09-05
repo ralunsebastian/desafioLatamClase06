@@ -1,0 +1,24 @@
+* Reset básico para eliminar márgenes y rellenos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos personalizados para el sitio */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    min-height: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
