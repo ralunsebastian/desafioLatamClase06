@@ -1,24 +1,48 @@
-* Reset básico para eliminar márgenes y rellenos por defecto */
+/* Reset básico para eliminar márgenes y rellenos por defecto */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Estilos personalizados para el sitio */
+
+/* Cambiar color del texto de todo el sitio */
 body {
     font-family: 'Arial', sans-serif;
+    color: #333; /* Color gris oscuro para el texto */
 }
 
+/* Estilo para el contenedor principal */
 .container {
     min-height: 400px;
+    color: #2c3e50; /* Color azul oscuro para el texto del contenido */
 }
 
+/* Modificar el color y tamaño de los encabezados */
 h1 {
     margin-bottom: 20px;
+    color: #3498db; /* Color azul claro para los encabezados */
+    font-size: 2.5rem; /* Aumentar tamaño de los encabezados */
 }
 
+/* Modificar color de fondo del footer y del texto */
 footer {
+    background-color: #1e1e1e; /* Cambiar color de fondo del footer a gris oscuro */
+    color: #fff; /* Color blanco para el texto */
     position: relative;
     bottom: 0;
     width: 100%;
+    padding: 20px 0;
 }
+
+/* Modificar el estilo de los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: #fff; /* Cambiar el color del texto de los enlaces a blanco */
+    font-size: 1.1rem; /* Aumentar ligeramente el tamaño de los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12; /* Cambiar color al pasar el mouse sobre los enlaces a un color naranja */
+}
+
